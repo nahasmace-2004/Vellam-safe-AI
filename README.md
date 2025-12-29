@@ -2,7 +2,7 @@
 
 [**🔗 View Live Demo on Streamlit**](https://vellam-safe-ai-agm4pap383twgpbav74pho.streamlit.app/)
 
-**Vazhi-Safe** is an intelligent monitoring system designed for Kerala Panchayats. It bridges the gap between raw IoT sensor data and actionable human intelligence using the Google Gemini AI ecosystem.
+**Vellam-Safe** is an intelligent monitoring system designed for Kerala Panchayats. It bridges the gap between raw IoT sensor data and actionable human intelligence using the Google Gemini AI ecosystem.
 
 ---
 
