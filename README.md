@@ -37,4 +37,9 @@
 
 pip install -r requirements.txt
 streamlit run app.py
+## 🗺️ Future Roadmap
+* **Hardware Integration**: Connecting real ESP32 sensors to the Firebase DB.
+* **SMS Alerts**: Using Twilio to send AI alerts directly to Panchayat members' phones.
+* **Predictive Maintenance**: Training a custom model to predict pipe aging.
+*
 
