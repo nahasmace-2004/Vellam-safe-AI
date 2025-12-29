@@ -12,7 +12,7 @@ st.set_page_config(page_title="Vazhi-Safe AI Dashboard", page_icon="🚰", layou
 # Securely fetch credentials from Streamlit Secrets
 FIREBASE_URL = "https://vazhisafe02-default-rtdb.asia-southeast1.firebasedatabase.app/.json"
 try:
-    GEMINI_KEY = st.secrets["AIzaSyB09C3jwxwe7yAfgWMSD-WLmqOQifzl-L4"]
+    GEMINI_KEY = st.secrets["AIzaSyATIYrO-mqYqiI0ybtJ1RqaU2u-XSsWAVg"]
     client = genai.Client(api_key=GEMINI_KEY)
 except Exception:
     st.error("Missing API Key! Please configure GEMINI_KEY in Streamlit Secrets.")
@@ -81,3 +81,4 @@ with col2:
 st.divider()
 st.subheader("📊 Raw Firebase Data")
 st.json(data)
+
