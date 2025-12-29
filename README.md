@@ -1,8 +1,7 @@
 # 🚰 Vellam-Safe: AI-Powered Water Grid Monitoring
 
-[**🔗 View Live Demo on Streamlit**](https://vellam-safe-ai-5fp6gf8megthp23ima8zet.streamlit.app/
-<img width="1137" height="81" alt="image" src="https://github.com/user-attachments/assets/7cf63293-d768-4e13-9c34-446b0ff3aa32" />
-)
+[**🔗 View Live Demo on Streamlit**](https://vellam-safe-ai-5fp6gf8megthp23ima8zet.streamlit.app/)
+
 
 **Vellam-Safe** is an intelligent monitoring system designed for Kerala Panchayats. It bridges the gap between raw IoT sensor data and actionable human intelligence using the Google Gemini AI ecosystem.
 
