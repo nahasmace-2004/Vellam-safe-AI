@@ -28,7 +28,7 @@ def get_ai_advice(sensor_data):
     prompt = f"Analyze these Kerala water pressures: {sensor_data}. Identify danger zones and provide a 1-sentence fix."
     try:
         response = client.models.generate_content(
-            model='gemini-2-flash', # High-quota model
+            model='gemini-2.5-flash-lite', # High-quota model
             contents=prompt
         )
         return response.text
@@ -80,4 +80,5 @@ with col2:
 st.divider()
 st.subheader("📊 Raw Firebase Data")
 st.json(data)
+
 
