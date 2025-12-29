@@ -1,12 +1,40 @@
-# Vellam-safe-AI
-AI powered water grid monitoring for kerala panchayats using gemini and firebase
-Problem: Local Panchayats in Kerala face challenges with manual water distribution, leading to undetected pipe bursts, uneven supply, and delayed crisis response in wards like Haripad and Munnar.
-​Solution: Vazhi-Safe is an intelligent IoT simulation that bridges infrastructure data with AI.
-​Real-time Sync: Simulated sensor data is pushed to Google Firebase.
-​AI Intelligence: Google Gemini 2.5 Flash-Lite analyzes live pressure levels.
-​Actionable Alerts: Instead of raw data, the system provides natural language safety instructions to technicians.
-​Tech Stack:
-​Google Gemini AI (Predictive Analysis)
-​Google Firebase (Real-time Cloud Database)
-​Streamlit (Interactive Kerala Heat Map & Dashboard)
-​Python (IoT Simulation)
+# 🚰 Vazhi-Safe: AI-Powered Water Grid Monitoring
+
+[**🔗 View Live Demo on Streamlit**](https://vazhi-safe-ai.streamlit.app)
+
+**Vazhi-Safe** is an intelligent monitoring system designed for Kerala Panchayats. It bridges the gap between raw IoT sensor data and actionable human intelligence using the Google Gemini AI ecosystem.
+
+---
+
+## 📌 Project Overview
+- **The Problem**: Local water authorities in Kerala often struggle with undetected pipe bursts and unequal water distribution due to manual monitoring methods.
+- **The Solution**: A real-time dashboard that visualizes water pressure across different wards and uses AI to provide instant safety protocols and maintenance advice.
+- **Target Audience**: Panchayat engineers, water authority technicians, and local administrators in regions like Haripad and Munnar.
+
+---
+
+## 🚀 Key Features
+- **AI Safety Analysis**: Leverages **Google Gemini 2.5 Flash-Lite** to interpret pressure spikes or drops and provide 1-sentence actionable advice.
+- **Real-Time Data Sync**: Powered by **Google Firebase Realtime Database** for sub-second updates between sensors and the dashboard.
+- **Interactive Geospatial Map**: A custom-built **Folium** heat map centered on Kerala wards (Haripad, Nangiarkulangara, and Munnar).
+- **Smart Caching**: Implements `st.cache_data` with a **120-second TTL** to optimize API usage and ensure system responsiveness.
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend**: Streamlit (Python-based Web Framework).
+- **Artificial Intelligence**: Google Gemini AI (Generative Analysis).
+- **Database**: Google Firebase (NoSQL Realtime Database).
+- **Mapping**: Folium & Streamlit-Folium.
+- **Hosting**: Streamlit Community Cloud.
+
+---
+
+## ⚙️ Setup & Installation
+1. **Clone the Repo**:
+   ```bash
+   git clone [https://github.com/your-username/Vazhi-Safe-AI.git](https://github.com/your-username/Vazhi-Safe-AI.git)
+
+pip install -r requirements.txt
+streamlit run app.py
+
