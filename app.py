@@ -76,9 +76,13 @@ with col2:
             st.write("Click the button above to start AI analysis.")
     else:
         st.write("No data found. Push data from the sidebar first.")
+        def get_ai_advice(sensor_data):
+    # Temporary mock for presentation if API is blocked
+    return "💡 [SIMULATION MODE]: Pressure levels in Munnar are stable. Haripad shows minor fluctuations; recommend monitoring valve 4."
 
 st.divider()
 st.subheader("📊 Raw Firebase Data")
 st.json(data)
+
 
 
