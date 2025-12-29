@@ -1,4 +1,4 @@
-# 🚰 Vazhi-Safe: AI-Powered Water Grid Monitoring
+# 🚰 Vellam-Safe: AI-Powered Water Grid Monitoring
 
 [**🔗 View Live Demo on Streamlit**](https://vellam-safe-ai-agm4pap383twgpbav74pho.streamlit.app/)
 
