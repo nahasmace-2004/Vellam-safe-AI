@@ -7,7 +7,7 @@ import random
 import time
 
 # --- INITIAL SETUP ---
-st.set_page_config(page_title="Vazhi-Safe AI Dashboard", page_icon="🚰", layout="wide")
+st.set_page_config(page_title="Vellam-Safe AI Dashboard", page_icon="🚰", layout="wide")
 
 # Securely fetch credentials from Streamlit Secrets
 # Make sure your secret is named GEMINI_KEY in the dashboard
@@ -91,3 +91,4 @@ with col2:
 st.divider()
 st.subheader("📊 Raw Firebase Data (JSON)")
 st.json(data)
+
