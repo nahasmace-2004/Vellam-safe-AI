@@ -25,6 +25,7 @@
 ## 🛠️ Tech Stack
 - **Frontend**: Streamlit (Python-based Web Framework).
 - **Artificial Intelligence**: Google Gemini AI (Generative Analysis).
+- **Google AI studio**
 - **Database**: Google Firebase (NoSQL Realtime Database).
 - **Mapping**: Folium & Streamlit-Folium.
 - **Hosting**: Streamlit Community Cloud.
