@@ -7,8 +7,7 @@
 ## 🚀 Final Submission Links & Validation
 * **✨ Updated Demo Video (Working Link):** [https://drive.google.com/file/d/1aVX8ay15GNRpdDCEyNJkKUd7GPKlr3Sf/view?usp=drive_link]
 * **🌐 Live MVP Dashboard:** [https://vellam-safe-ai-ynuzcqyiufqquvvb9yqy4k.streamlit.app/
-<img width="1145" height="81" alt="image" src="https://github.com/user-attachments/assets/1f8c77cc-82e5-4073-80f6-31b3a21f06f3" />
-]
+<img width="1145" height="81" alt="image" src="https://github.com/user-attachments/assets/1f8c77cc-82e5-4073-80f6-31b3a21f06f3" />]
 * **📈 Industry Validation:** [https://www.linkedin.com/posts/muhammed-nahas-a7a555308_googletechsprint-buildwithai-vellamsafe-activity-7411995022918807552-ZYmG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE5kOL4BUMj01S17Go6GkeHHebDoEHTp3xM]
 
 > **Note to Judges:** The Demo Video link above is the primary reference for evaluation. This project has already received professional engagement from industry leadership in AI and Innovation (Fidelity Investments).
