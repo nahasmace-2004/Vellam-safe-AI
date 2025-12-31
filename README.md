@@ -1,52 +1,54 @@
-# 🚰 Vellam-Safe: AI-Powered Water Grid Monitoring
+# 🌊 Vellam-Safe: AI-Powered Rural Water Management
 
-[**🔗 View Live Demo on Streamlit**](PASTE_YOUR_STREAMLIT_URL_HERE) | [**📊 View Historical Analytics (Looker Studio)**](https://lookerstudio.google.com/reporting/346599ef-19e7-45e3-9d41-f2c2a9aca8e2)
-
-**Vellam-Safe** is an intelligent monitoring solution designed for Kerala Panchayats. It bridges the gap between raw IoT sensor telemetry and actionable human intelligence using the Google Cloud and AI ecosystem.
+**Built for the Google TechSprint 2025** *Empowering Panchayats with AI-Driven Safety Protocols and Real-Time Monitoring.*
 
 ---
 
-## 📌 Project Overview
-- **The Problem**: Local water authorities in Kerala struggle with undetected pipe bursts and unequal water distribution due to manual monitoring methods.
-- **The Solution**: A real-time AIoT dashboard that visualizes water pressure across wards and provides instant safety protocols using Generative AI.
-- **Target Audience**: Panchayat engineers and utility administrators in regions like Haripad, Nangiarkulangara, and Munnar.
+## 🚀 Final Submission Links & Validation
+* **✨ Updated Demo Video (Working Link):** [https://drive.google.com/file/d/1aVX8ay15GNRpdDCEyNJkKUd7GPKlr3Sf/view?usp=drive_link]
+* **🌐 Live MVP Dashboard:** [https://vellam-safe-ai-ynuzcqyiufqquvvb9yqy4k.streamlit.app/
+<img width="1145" height="81" alt="image" src="https://github.com/user-attachments/assets/1f8c77cc-82e5-4073-80f6-31b3a21f06f3" />
+]
+* **📈 Industry Validation:** [https://www.linkedin.com/posts/muhammed-nahas-a7a555308_googletechsprint-buildwithai-vellamsafe-activity-7411995022918807552-ZYmG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE5kOL4BUMj01S17Go6GkeHHebDoEHTp3xM]
+
+> **Note to Judges:** The Demo Video link above is the primary reference for evaluation. This project has already received professional engagement from industry leadership in AI and Innovation (Fidelity Investments).
 
 ---
 
-## 🚀 Key Features
-- **Real-Time Data Sync**: Powered by **Google Firebase Realtime Database** for sub-second synchronization between sensors and the dashboard.
-- **AI-Driven Safety Analysis**: Employs **Google Gemini 2.5 Flash-Lite** to interpret pressure levels and provide natural language safety advice.
-- **Historical BI Dashboard**: Integrated **Looker Studio** reports for long-term trend analysis and infrastructure health tracking.
-- **Interactive Heat Map**: A dynamic **Folium** map centered on specific Kerala wards for rapid spatial awareness.
+## 📖 Overview
+Vellam-Safe is an AIoT solution designed to solve critical water mismanagement in rural ward-level distributions. By combining real-time sensor data with **Gemini 2.5 Flash-lite**, the system predicts issues and generates immediate safety protocols.
+
+### **The Problem**
+In rural areas, water quality and pressure issues often go unnoticed. Vellam-Safe automates detection and provides **instant, AI-generated action plans** for local administrators.
 
 ---
 
-## 🛠️ Google Technologies Used
-- **Google Gemini AI**: Specifically **Gemini 2.5 Flash-Lite** for fast, efficient predictive analysis.
-- **Google AI Studio**: Used for rapid prototyping and fine-tuning the AI's system instructions.
-- **Google Firebase**: Uses **Realtime Database** to act as the live hub for all IoT sensor telemetry.
-- **Looker Studio**: Transforms historical data into interactive visualizations for Panchayat secretaries.
-- **Google Cloud Console**: Centralized management for API security and infrastructure.
+## 🛠️ Technical Stack
+* **AI Engine:** Google Gemini 2.5 Flash-lite (Safety Protocol Generation)
+* **Backend:** Python & Firebase Realtime Database
+* **Frontend:** Streamlit Dashboard
+* **Cloud:** Google Cloud Platform (GCP)
 
 ---
 
-## 📂 System Architecture
-1. **Simulated IoT Sensors**: Generates real-time pressure data.
-2. **Firebase RTDB**: Acts as the central "truth" for all telemetry.
-3. **Streamlit App**: The live interface that triggers Gemini AI for safety insights.
-4. **Looker Studio**: Connects to the data for long-term health reporting.
+## 🏗️ Architecture
+1.  **Data Ingestion:** Simulated sensors push pressure/pH data to **Firebase**.
+2.  **AI Analysis:** The backend triggers **Gemini API** when data leaves safe parameters.
+3.  **Actionable Intelligence:** Gemini generates localized protocols (e.g., "Alert Ward 4 of contamination").
+4.  **Visualization:** Real-time rendering on the **Streamlit** dashboard.
 
 ---
 
-## 🗺️ Future Roadmap
-- **Physical Hardware**: Transitioning to **ESP32 and Arduino-based sensors** for real-world deployment.
-- **Predictive Maintenance**: Training custom ML models to predict pipe fatigue before bursts occur.
-- **Automated Alerts**: Integrating **Google Cloud Pub/Sub** for instant SMS/WhatsApp emergency notifications.
-- **Water Quality Tracking**: Adding pH and turbidity sensors to monitor drinking water safety.
+## 🌟 Key Features
+* **Real-time Ward Monitoring:** Granular data for every distribution point.
+* **Automated Safety Protocols:** AI-generated instructions based on live anomalies.
+* **Low-Latency Performance:** Optimized for rural environments using Gemini Flash-lite.
+* **Professional UX:** Intuitive interface for non-technical Panchayat officials.
 
 ---
 
-## ⚙️ Setup & Installation
-1. **Clone the Repo**:
-   ```bash
-   git clone [https://github.com/nahasmace-2004/Vellam-Safe-AI.git](https://github.com/nahasmace-2004/Vellam-Safe-AI.git)
+## 👨‍💻 Developer
+**Muhammed Nahas** *Electrical & Electronics Engineering Student @ Mar Athanasius College of Engineering (MACE)*
+
+---
+*Developed for the Google TechSprint (Dec 1, 2025 - Jan 3, 2026).*
